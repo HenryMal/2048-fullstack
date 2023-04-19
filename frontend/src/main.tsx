@@ -1,13 +1,23 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
+import { ThemeProvider, CssBaseline, createTheme } from '@mui/material'
 import { BrowserRouter  } from 'react-router-dom'
 import App from './App'
 import './index.css'
 
+const darkTheme = createTheme({
+  palette: {
+    mode: "light",
+  },
+});
+
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <BrowserRouter>
     <React.StrictMode>
-      <App />
+      <ThemeProvider theme={darkTheme}>
+        <CssBaseline />
+        <App />
+      </ThemeProvider>
     </React.StrictMode>
   </BrowserRouter>
 )
