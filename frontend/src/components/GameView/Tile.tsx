@@ -1,6 +1,14 @@
 import React from "react"
 import { Box, Stack } from "@mui/material"
 
+export type TileProps = {
+  color: string,
+  text: number,
+  currentXPos?: number,
+  currentYPos?: number,
+  slideToXPos?: number,
+  slideToYPos?: number,
+}
 
 export const Tile = () => {
 
