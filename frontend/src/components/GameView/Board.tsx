@@ -1,7 +1,6 @@
 import React from "react"
 import { Box } from "@mui/material"
 import Grid from "./Grid"
-import { Tile } from "./Tile"
 
 const Board = () => {
 
@@ -14,14 +13,9 @@ const Board = () => {
         height: '500px',
         backgroundColor: '#bbada0',
         borderRadius: '6px',
+        position: 'absolute',
       }}>
       <Grid />
-      
-      {/* this shit we need to have another higher component higer then set this shit */}
-      {/* <Tile sx={{
-        position: '300px'
-        ,
-      }}/> */}
     </Box>
   )
 }

@@ -6,10 +6,9 @@ const Grid = () => {
 
   return (
     <Stack
-      direction="column"
       display="flex"
-      gap="15px"
-      justifyContent="center">
+      justifyContent="center"
+      gap="15px">
       <TileRow />
       <TileRow />
       <TileRow />

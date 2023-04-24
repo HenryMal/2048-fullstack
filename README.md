@@ -14,6 +14,9 @@ hands dirty and build one of my favorite games as a kid, but as a Web App.
 
 Todo list for the project.
 
-- [ ] UI
+- [ ] From the homepage, add a button that when clicked, logs all tiles
+- [ ] Make custom CSS file for different tile values
+- [ ] Add description above and below
+- [ ] Make Nav. Bar
 
 More planned in the future...

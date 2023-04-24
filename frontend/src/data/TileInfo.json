@@ -1,0 +1,10 @@
+[
+  {
+    "color": 1,
+    "text": "Book",
+    "currentXPos": 10.99,
+    "currentYPos": "/imgs/book.jpg",
+    "slideToXPos": 10.99,
+    "slideToYPos": "/imgs/book.jpg"
+  }
+]

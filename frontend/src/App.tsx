@@ -9,7 +9,6 @@ function App() {
   return (
     <Box id="app">
       <RouterView />
-      salam
     </Box>  
 
   )

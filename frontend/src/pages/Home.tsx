@@ -1,18 +1,14 @@
 import React from "react"
 import { Stack, Typography } from "@mui/material"
 import Board from "../components/GameView/Board"
-import Grid from "../components/GameView/Grid"
+import Game from "../components/GameView/Game"
 
 const Home = () => {
 
   return (  
     <>
-      <Stack>
-        Sha sha!
-      </Stack>
 
-      <Board />
-
+      <Game />
     </>
 
   )
