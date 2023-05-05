@@ -16,7 +16,12 @@ Todo list for the project.
 
 - [ ] From the homepage, add a button that when clicked, logs all tiles
 - [ ] Make custom CSS file for different tile values
+
 - [ ] Add description above and below
+    - [ ] Finish ScoresView file
+    - [ ] Make a universal typography component to reduce duplicate code
+    - [ ] Finish footer disc.
+
 - [ ] Make Nav. Bar
 
 More planned in the future...

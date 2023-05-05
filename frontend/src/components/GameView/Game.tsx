@@ -7,7 +7,7 @@ const Game = () => {
   const tiles: TileProps[] = [
     {
       "color": "#eee4da",
-      "text": 69,
+      "text": 4,
       "currentPos": [15, 15]
     },
 
@@ -18,17 +18,15 @@ const Game = () => {
     },
     
 
-
   ];
 
   return (
     <Stack
+      
       sx={{ position: "relative"}}>
 
-      
       <Board />
 
-      
       {tiles.map((tile, index) => {
           return (
             <Tile
